@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mountain climb</title>
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css"
+    /> -->
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <!-- <span>UK</span> -->
+        <a class="logo" href="">
+          <svg class="logo__svg" width="35" height="35">
+            <use href="./assets/images/sprite.svg#icon-logo"></use>
+          </svg>
+        </a>
+      </header>
+
+      <main class="main">
+        <section class="section hero">
+          <div class="container">
+            <h1 class="hero__title">Hero title</h1>
+          </div>
+        </section>
+
+        <section class="section guide">
+          <div class="container">
+            <h2>Section title</h2>
+
+            <ol class="guide__list">
+              <li>
+                <p>
+                  If we don't have modern normalize as a link connect it as a
+                  local file.
+                </p>
+              </li>
+              <li>
+                <p>
+                  If we can't use modern normalize in a project we should
+                  remember about settings of
+                  <b>*, *::before, *::before { box-sizing: border-box; }</b> and
+                  <b>img { display: block; }</b>, also different margins,
+                  paddings for body, p et.c.
+                </p>
+              </li>
+              <li>
+                <p>Press footer to bottom of the page</p>
+                <div class="guide__img-container">
+                  <img
+                    class="guide__pic"
+                    src="./assets/images/footer-bottom_1.jpg"
+                    alt=""
+                  />
+                  <img
+                    class="guide__pic"
+                    src="./assets/images/footer-bottom_2.jpg"
+                    alt=""
+                  />
+                </div>
+              </li>
+            </ol>
+          </div>
+        </section>
+      </main>
+
+      <footer><div class="container">Footer</div></footer>
+    </div>
+  </body>
+</html>

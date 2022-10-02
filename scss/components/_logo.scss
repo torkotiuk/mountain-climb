@@ -1,0 +1,14 @@
+.logo {
+  display: inline-block;
+  outline: 1px solid red;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(243, 201, 201);
+
+  &__svg {
+    background-color: rgb(114, 163, 136);
+    outline: 1px solid rgb(9, 0, 128);
+    display: block;
+    fill: green;
+  }
+}
