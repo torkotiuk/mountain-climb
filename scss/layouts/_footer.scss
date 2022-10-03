@@ -1,3 +1,20 @@
-footer {
+.footer {
   background-color: rgb(255, 157, 234);
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  a {
+    display: inline-block;
+    // padding-top: 10px;
+    // padding-bottom: 10px;
+    // outline: 1px solid red;
+  }
+
+  svg {
+    display: block;
+    // outline: 2px dotted green;
+  }
 }

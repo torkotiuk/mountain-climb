@@ -13,13 +13,18 @@
   </head>
   <body>
     <div class="wrapper">
-      <header>
-        <!-- <span>UK</span> -->
+      <header class="header">
+        <span>UK</span>
+
         <a class="logo" href="">
           <svg class="logo__svg" width="35" height="35">
             <use href="./assets/images/sprite.svg#icon-logo"></use>
           </svg>
         </a>
+
+        <svg width="21" height="14">
+          <use href="./assets/images/sprite.svg#icon-burger"></use>
+        </svg>
       </header>
 
       <main class="main">
@@ -69,7 +74,16 @@
         </section>
       </main>
 
-      <footer><div class="container">Footer</div></footer>
+      <footer class="footer">
+        <div class="container">
+          <span>&copy; Mountain Climb 2022. We appreciate our customers!</span>
+          <a target="_blank" href="https://github.com/torkotiuk/mountain-climb"
+            ><svg width="20" height="25">
+              <use href="./assets/images/sprite.svg#icon-github"></use>
+            </svg>
+          </a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
